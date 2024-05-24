@@ -26,7 +26,7 @@ class StatsN2:
         else:
             x_ord, index = sorted(lista), round(0.5 * n)
             median_ = 0.5 * (x_ord[index - 1] + x_ord[index])
-        return median_
+        return float(median_)
 
     @staticmethod
     def unimodal(lista):
